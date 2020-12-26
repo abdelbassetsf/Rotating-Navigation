@@ -33,7 +33,7 @@ nav {
 }
 
 .container.show-nav + nav ul li {
-  transform: translateX(140%);
+  transform: translateX(150%);
   transition-delay: 0.3s;
 }
 
@@ -119,9 +119,15 @@ nav ul li:last-child {
 }
 
 .circle button#close {
-  top: 60%;
+  top: 65%;
   transform: rotate(90deg);
   transform-origin: top left;
+  left: 50%;
+}
+
+.content {
+  width: 100%;
+  margin: 3rem auto;
 }
 
 .content h1 {
@@ -131,5 +137,4 @@ nav ul li:last-child {
 
 .content small {
   font-style: italic;
-  font-weight: bold;
 }
